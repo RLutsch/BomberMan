@@ -6,8 +6,8 @@ public:
   int           get_state();
   bool          is_x_y(int x, int y);
 protected:
-  virtual int   _x;
-  virtual int   _y;
-  virtual int   _id;
-  virtual int   _state;
+  int   _x;
+  int   _y;
+  int   _id;
+  int   _state;
 };
