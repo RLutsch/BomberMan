@@ -6,8 +6,8 @@
 
 class Map {
 public:
-  std::vector<std::vector<std::string>> get_map();
+  std::vector<std::vector<std::string> > get_map();
   void                     read_and_setup(std::string filename);
 private:
-  std::vector<std::vector<std::string>> _map;
+  std::vector<std::vector<std::string> > _map;
 };

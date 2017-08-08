@@ -1,6 +1,6 @@
 #include "Map.hpp"
 
-std::vector<std::vector<std::string>>  Map::get_map() {
+std::vector<std::vector<std::string> >  Map::get_map() {
   return _map;
 }
 
