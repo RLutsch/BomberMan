@@ -4,4 +4,5 @@
 class Bomberman: public Map_object, public Map_moveable {
 private:
 	bool	check_block(int move_x, int move_y);
+	void	stay();
 };

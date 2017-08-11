@@ -8,6 +8,11 @@ bool 	Bomberman::check_block(int move_x, int move_y) {
 	return false;
 }
 
+void	Bomberman::stay() {
+	_dir_x = 0;
+	_dir_y = 0;
+}
+
 char	Bomberman::update() {
 	//get move from user or ai
 	//check if valid direction for the object and act accordingly
@@ -15,17 +20,21 @@ char	Bomberman::update() {
 	//check if move is possible and then move/stay
 	switch () {
 		case 'u':
-			//check block plus 1 y
-				//do switch
+			_dir_y = -1;
 			break;
 		case 'd':
-			//-1 y..
+			_dir_y = 1;
 			break;
 		case 'l':
-			//1 x..
+			_dir_x = -1;
 			break;
 		case 'r':
-			//-1 x..
+			_dir_x = 1;
 			break;
+		default:
+			stay();
+	}
+	if (!_map[y + _dir_y][_x + _dir_x].compare("w") || !_map[y + _dir_y][_x + _dir_x].compare("S")) {
+		stay();
 	}
 }
