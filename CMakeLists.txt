@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")
 set(SOURCE_FILES
     main.cpp
     src/front/Shaders.cpp
-)
+        src/back/abstracts/Object.cpp src/back/abstracts/includes/Object.hpp)
 
 find_package(OpenGL REQUIRED)
 find_package(PkgConfig REQUIRED)

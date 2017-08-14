@@ -29,3 +29,6 @@ fclean: clean
 	rm $(NAME) *.so
 
 re: fclean all
+
+back:
+	clang++ -Wall -Werror -Wextra -std=c++11 -o bomberman src/back/*.cpp src/back/abstracts/*.cpp src/back/factories/*.cpp src/back/objects/*.cpp
