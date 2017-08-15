@@ -1,6 +1,11 @@
 #include "includes/Bomberman.hpp"
 
-Bomberman::Bomberman() {
+	#include <iostream>
+
+Bomberman::Bomberman(int x, int y) {
+	std::cout << "Bomberman has been born!!!" << std::endl;
+	_x = x;
+	_y = y;
 }
 
 Bomberman::~Bomberman() {

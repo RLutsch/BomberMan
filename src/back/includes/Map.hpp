@@ -3,6 +3,9 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include "../factories/includes/Object_factory.hpp"
+#include "../factories/includes/Factory.hpp"
+#include "../abstracts/includes/Object.hpp"
 
 class Map {
 public:

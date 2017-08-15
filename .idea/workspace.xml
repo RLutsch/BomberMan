@@ -10,33 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a32200bb-b636-4af4-b58b-7efd3e7e6f40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/abstracts/Object.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/abstracts/Object.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/factories/Factory.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/factories/includes/Factory.hpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CMakeCCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CMakeCXXCompiler.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CMakeSystem.cmake" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CompilerIdC/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/3.9.0/CompilerIdCXX/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/abstracts/Map_object.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/abstracts/Map_object.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/factories/Object_factory.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/back/factories/Object_factory.hpp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/abstracts/Object_movable.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/back/abstracts/includes/Object_movable.hpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeCache.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/cmake.check_cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.cxx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeCache.txt" afterPath="$PROJECT_DIR$/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/maps/map1.map" afterPath="$PROJECT_DIR$/Resources/maps/map1.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/Map.cpp" afterPath="$PROJECT_DIR$/src/back/Map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/abstracts/Object.cpp" afterPath="$PROJECT_DIR$/src/back/abstracts/Object.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/abstracts/includes/Object.hpp" afterPath="$PROJECT_DIR$/src/back/abstracts/includes/Object.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/factories/Factory.cpp" afterPath="$PROJECT_DIR$/src/back/factories/Factory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/factories/includes/Factory.hpp" afterPath="$PROJECT_DIR$/src/back/factories/includes/Factory.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp" afterPath="$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/includes/Map.hpp" afterPath="$PROJECT_DIR$/src/back/includes/Map.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/objects/Bomberman.cpp" afterPath="$PROJECT_DIR$/src/back/objects/Bomberman.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/back/objects/includes/Bomberman.hpp" afterPath="$PROJECT_DIR$/src/back/objects/includes/Bomberman.hpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -52,57 +46,55 @@
       <file leaf-file-name="Bomberman.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Object_factory.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Factory.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/back/factories/Factory.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game_loop.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back/Game_loop.cpp">
+      <file leaf-file-name="Bomberman.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/objects/includes/Bomberman.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back/Map.cpp">
+      <file leaf-file-name="Object.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object_movable.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object_movable.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object_movable.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/back/abstracts/includes/Object_movable.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/abstracts/includes/Object.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -111,11 +103,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bomberman.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
+      <file leaf-file-name="Object_factory.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/factories/Factory.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/Map.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back/includes/Map.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -147,14 +169,20 @@
         <option value="$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
         <option value="$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
         <option value="$PROJECT_DIR$/Resources/maps/map1.map" />
+        <option value="$PROJECT_DIR$/src/back/abstracts/Object.hpp" />
+        <option value="$PROJECT_DIR$/src/back/factories/includes/object_factory.hpp" />
+        <option value="$PROJECT_DIR$/src/back/includes/Map.hpp" />
+        <option value="$PROJECT_DIR$/src/back/factories/includes/Factory.hpp" />
+        <option value="$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp" />
+        <option value="$PROJECT_DIR$/src/back/objects/includes/Bomberman.hpp" />
+        <option value="$PROJECT_DIR$/src/back/abstracts/includes/Object.hpp" />
+        <option value="$PROJECT_DIR$/src/back/factories/Factory.cpp" />
         <option value="$PROJECT_DIR$/src/back/Map.cpp" />
         <option value="$PROJECT_DIR$/src/back/abstracts/Object.cpp" />
-        <option value="$PROJECT_DIR$/src/back/abstracts/Object.hpp" />
+        <option value="$PROJECT_DIR$/src/back/abstracts/Object_movable.hpp" />
         <option value="$PROJECT_DIR$/src/back/objects/Bomberman.cpp" />
-        <option value="$PROJECT_DIR$/src/back/factories/includes/object_factory.hpp" />
-        <option value="$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp" />
-        <option value="$PROJECT_DIR$/src/back/factories/includes/Factory.hpp" />
-        <option value="$PROJECT_DIR$/src/back/factories/Factory.cpp" />
+        <option value="$PROJECT_DIR$/src/back/abstracts/Object_movable.cpp" />
+        <option value="$PROJECT_DIR$/src/back/abstracts/includes/Object_movable.hpp" />
       </list>
     </option>
   </component>
@@ -164,8 +192,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1292" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -190,44 +218,60 @@
         <subPane>
           <expand>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="maps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
               <item name="abstracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bomberman" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="BomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
+              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bomberMan" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,6 +285,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/back/abstracts/includes" />
       <recent name="$PROJECT_DIR$/src/back/abstracts" />
     </key>
   </component>
@@ -453,14 +498,15 @@
       <workItem from="1502435750867" duration="15000" />
       <workItem from="1502435774634" duration="4336000" />
       <workItem from="1502689694784" duration="5140000" />
+      <workItem from="1502785362843" duration="5912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23016000" />
+    <option name="totallyTimeSpent" value="28928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -470,7 +516,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22209945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2669903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,25 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/Game_loop.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -532,14 +559,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
@@ -554,20 +574,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/Map.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -576,31 +588,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/Map.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/Map.hpp" />
     <entry file="file://$PROJECT_DIR$/Resources/maps/map1.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,108 +621,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/back/Map.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/Map.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_movable.hpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.cpp" />
     <entry file="file://$PROJECT_DIR$/src/back/abstracts/Map_object.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/back/factories/Object_factory.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/back/factories/Object_factory.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Factory.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/back/Game_loop.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/Map.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/factories/Object_factory.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/factories/Object_factory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Factory.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -737,13 +661,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/includes/Map.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/factories/includes/Object_factory.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/back/factories/Factory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/abstracts/includes/Object.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/Map.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/Bomberman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/objects/includes/Bomberman.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/abstracts/Object_movable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back/abstracts/includes/Object_movable.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

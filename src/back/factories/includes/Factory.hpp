@@ -5,7 +5,7 @@
 
 class Factory : public Object_factory {
 public:
-	Object *create_object(std::string key);
+	Object *create_object(std::string key, int x, int y);
 };
 
 #endif //BOMBERMAN_FACTORY_HPP

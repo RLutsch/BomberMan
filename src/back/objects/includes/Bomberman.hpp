@@ -2,9 +2,10 @@
 
 class Bomberman : public Object {
 public:
-	Bomberman();
+	Bomberman(int x, int y);
 	virtual ~Bomberman();
 private:
+	Bomberman();
 	bool	check_block(/*int move_x, int move_y*/);
 	void	stay();
 };

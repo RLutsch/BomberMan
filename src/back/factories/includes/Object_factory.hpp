@@ -6,7 +6,7 @@
 
 class Object_factory {
 public:
-	virtual Object	*create_object(std::string key) = 0;
+	virtual Object	*create_object(std::string key, int x, int y) = 0;
 };
 
 #endif //BOMBERMAN_OBJECT_FACTORY_HPP

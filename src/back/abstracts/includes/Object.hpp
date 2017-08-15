@@ -5,6 +5,14 @@ class Object {
 public:
 	Object(void);
 	virtual	~Object(void);
+
+	int	get_x();
+	int	get_y();
+
+protected:
+	int		_x;
+	int		_y;
+
 private:
 	Object(Object const & src);
 	Object &	operator=(Object const & src);
