@@ -1,1 +1,1 @@
-CMakeLists.txt not found in /goinfre/vivan-de/Documents/bomberMan
+CMakeLists.txt not found in /home/victor/Documents/projects/bomberman

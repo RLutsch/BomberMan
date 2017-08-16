@@ -10,7 +10,8 @@ public:
 	int	get_y();
 
 protected:
-	int		_x;
+	int
+			_x;
 	int		_y;
 
 private:

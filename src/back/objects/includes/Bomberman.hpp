@@ -1,11 +1,12 @@
 #include "../../abstracts/includes/Object.hpp"
+#include "../../abstracts/includes/Object_movable.hpp"
 
-class Bomberman : public Object {
+class Bomberman : public Object, public  Object_movable {
 public:
 	Bomberman(int x, int y);
-	virtual ~Bomberman();
+	void		update();
+	char		get_direction();
+	virtual		~Bomberman();
 private:
 	Bomberman();
-	bool	check_block(/*int move_x, int move_y*/);
-	void	stay();
 };
