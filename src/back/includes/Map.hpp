@@ -9,7 +9,8 @@
 
 class Map {
 public:
-  void                     				read_and_setup(std::string filename);
+	void                     				read_and_setup(std::string filename);
+	void									read_map();
 private:
   std::vector<std::vector<Object*> >	_map;
 };

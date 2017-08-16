@@ -17,3 +17,13 @@ void Map::read_and_setup(std::string filename) {
 		_map.push_back(row);
     }
 }
+
+void Map::read_map() {
+	for (size_t y = 0; y < _map.size(); y++) {
+		for (size_t x = 0; x < _map[y].size(); x++) {
+			if (_map[y][x] != nullptr) {
+				std::cout << _map[y][x]->get_id() << std::endl;
+			}
+		}
+	}
+}
