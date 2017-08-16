@@ -1,0 +1,8 @@
+//
+// Created by vern on 2017/08/16.
+//
+
+#ifndef BOMBERMAN_OBJECT_SUBJECT_HPP
+#define BOMBERMAN_OBJECT_SUBJECT_HPP
+
+#endif //BOMBERMAN_OBJECT_SUBJECT_HPP
