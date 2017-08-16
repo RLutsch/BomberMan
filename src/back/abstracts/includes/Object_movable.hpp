@@ -3,12 +3,13 @@
 
 class Object_movable {
 public:
-	void	up();
-	void	down();
-	void	left();
-	void	right();
-	void	obstacle();
-	virtual void update();
+	virtual char	get_direction() = 0;
+	virtual void	update() = 0;
+	void			up();
+	void			down();
+	void			left();
+	void			right();
+	bool			obstacle();
 
 protected:
 	int		_dir_x;
