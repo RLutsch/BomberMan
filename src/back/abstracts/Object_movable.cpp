@@ -3,54 +3,66 @@
 void Object_movable::direction() {
 	switch (get_direction()) {
 		case 'u':
-			up();
+			_up();
 			break;
 		case 'd':
-			down();
+			_down();
 			break;
 		case 'l':
-			left();
+			_left();
 			break;
 		case 'r':
-			right();
+			_right();
 			break;
 		default:
-			stay();
+			_stay();
 	}
 }
 
-void	Object_movable::up() {
+void	Object_movable::_up() {
 	_dir_x = 0;
 	_dir_y = -1;
 }
 
-void	Object_movable::down() {
+void	Object_movable::_down() {
 	_dir_x = 0;
 	_dir_y = 1;
 }
 
-void	Object_movable::left() {
+void	Object_movable::_left() {
 	_dir_x = -1;
 	_dir_y = 0;
 }
 
-void	Object_movable::right() {
+void	Object_movable::_right() {
 	_dir_x = 1;
 	_dir_y = 0;
 }
 
-void	Object_movable::stay() {
+void	Object_movable::_stay() {
 	_dir_x = 0;
 	_dir_y = 0;
 }
 
-void	Object_movable::obstacle(std::string id) {
-	if (!id.compare("w")) {
-		stay();
+void Object_movable::collision() {
+	std::cout << "There was a collision" << std::endl;
+}
+
+void	Object_movable::move() {
+	Object temp;
+
+	if ((*_map)[*_yp + _dir_y][*_xp + _dir_x] == nullptr) {
+		_stay();
+	} else if ((*_map)[*_yp + _dir_y][*_xp + _dir_x]->get_id().compare("0")) {
+		collision();
+	} else {
+		temp = *((*_map)[*_yp][*_xp]);
+		(*_map)[*_yp][*_xp] = (*_map)[*_yp + _dir_y][*_xp + _dir_x];
+		(*_map)[*_yp + _dir_y][*_xp + _dir_x] = &temp;
 	}
 }
 
 void Object_movable::update() {
 	direction();
-	obstacle(_map[]);
+	move();
 }

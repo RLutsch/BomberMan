@@ -1,22 +1,25 @@
 #ifndef BOMBERMAN_OBJECT_HPP
 #define BOMBERMAN_OBJECT_HPP
 
+#include <string>
+
 class Object {
 public:
 	Object(void);
+	Object &	operator=(Object const &src);
 	virtual	~Object(void);
 
-	int	get_x();
-	int	get_y();
+	std::string	get_id();
+	int			get_x();
+	int			get_y();
 
 protected:
-	int
-			_x;
-	int		_y;
+	std::string	_id;
+	int 		_x;
+	int			_y;
 
 private:
 	Object(Object const & src);
-	Object &	operator=(Object const & src);
 };
 
 #endif //BOMBERMAN_OBJECT_HPP

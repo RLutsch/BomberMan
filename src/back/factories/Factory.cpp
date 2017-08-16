@@ -3,9 +3,9 @@
 
         #include <iostream>
 
-Object	*Factory::create_object(std::string key, int x, int y) {
+Object	*Factory::create_object(std::string key, int x, int y, std::vector<std::vector<Object*> > &map) {
 	if (key[0] == 'A') {
-        return new Bomberman(x, y);
+        return new Bomberman(x, y, map);
     }
 	return nullptr;
 }
